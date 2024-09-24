@@ -3,9 +3,9 @@ const informationTechnologyStudents200level = [
     {name: "Sodolamu Foladyo", cgpa:3.3},  
     {name: "Sodiku Temitayo", cgpa:4.0},  
     {name: "Olateju Rashidat", cgpa:2.9},
-    {name: "Olufemi GaiusnOluwaseyi", cgpa:5.0}
+    {name: "Olufemi GaiusnOluwaseyi", cgpa:5.0} 
 ]
-const getAverageCGPA = (students) => {
+const getAverageCGPA = (students) => { 
     const total_cgpa = students.reduce((sum, student) => sum + student.cgpa,0);
     return total_cgpa / students.length;
 };
