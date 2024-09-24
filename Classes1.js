@@ -5,9 +5,8 @@ class animals{
         this.age = age
     }
     getDetail(){
-        return'The $(this.species) is $(this.color) and he/she is $(this.age)';
+        return'The ${this.species} is ${this.color} and he/she is ${this.age}';
     }
-
 }
 const Animal = new animals("Zebra", "black and white", 2);
 console.log(Animal.getDetail());
